@@ -1,4 +1,4 @@
-from gigi_final_project.page_objects.pages.login_page import loginPage
+from gigi_final_project.page_objects_local_examples.pages.login_page import loginPage
 
 
 class Testlogin():
