@@ -1,3 +1,4 @@
+# Home Page Expected Data
 FOOTER_TEXT = ['Bible Teachings', 'Bible Questions Answered', 'Bible Verses Explained', 'Bible Study Course',
                'Bible Study Tools', 'Peace & Happiness', 'Marriage & Family', 'Teens & Young Adults', 'Children',
                'Faith in God', 'Science & the Bible', 'History & the Bible', 'Library', 'Bibles', 'Magazines',
