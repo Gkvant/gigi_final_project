@@ -12,7 +12,6 @@ class TestHomePage:
     @pytest.mark.parametrize("text, expected_url", footer_test_cases)
     def test_footer_links_match(self, setup_jw_org, text, expected_url):
         # Goal - check if link directs to desired page after click in footer
-        # Dependency - test_footer_data_validation_text, test_footer_data_validation_links
         # Known : request visit link does not match URL after it is clicked
         home_page = jwHomePage(setup_jw_org)
         current_link = home_page.get_footer_link_with_(text)
