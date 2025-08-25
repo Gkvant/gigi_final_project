@@ -31,3 +31,5 @@ FOOTER_LINKS = ['https://www.jw.org/en/bible-teachings/', 'https://www.jw.org/en
                 'https://www.jw.org/en/jehovahs-witnesses/activities/',
                 'https://www.jw.org/en/jehovahs-witnesses/experiences/',
                 'https://www.jw.org/en/jehovahs-witnesses/worldwide/']
+
+footer_test_cases = list(zip(FOOTER_TEXT, FOOTER_LINKS))

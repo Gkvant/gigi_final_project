@@ -2,9 +2,9 @@ import pytest
 from datetime import datetime
 from gigi_final_project.pages.home_page import jwHomePage
 from gigi_final_project.tests.conftest import setup_jw_org
-from gigi_final_project.tests.data_file import FOOTER_TEXT, FOOTER_LINKS
+from gigi_final_project.tests.data_file import FOOTER_TEXT, FOOTER_LINKS, footer_test_cases
 
-footer_test_cases = list(zip(FOOTER_TEXT, FOOTER_LINKS))
+
 
 
 class TestHomePage:
@@ -12,7 +12,6 @@ class TestHomePage:
     @pytest.mark.parametrize("text, expected_url", footer_test_cases)
     def test_footer_links_match(self, setup_jw_org, text, expected_url):
         # Goal - check if link directs to desired page after click in footer
-        # Known : request visit link does not match URL after it is clicked
         home_page = jwHomePage(setup_jw_org)
         current_link = home_page.get_footer_link_with_(text)
         current_url = home_page.get_url_after_click(current_link)

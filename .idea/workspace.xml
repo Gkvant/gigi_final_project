@@ -87,7 +87,7 @@
       <recent name="C:\Users\Gigi work\PycharmProjects\gigi_final_project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_home_page.TestHomePage.test_footer_links_match">
+  <component name="RunManager" selected="Python tests.Python tests for test_home_page.TestHomePage.test_footer_data_validation_links">
     <configuration name="Python tests for test_home_page.TestHomePage" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
@@ -118,21 +118,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_home_page.TestHomePage.test_footer_data_links" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="gigi_final_project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gigi_final_project/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_home_page.TestHomePage.test_footer_data_links&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for test_home_page.TestHomePage.test_footer_data_text" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="gigi_final_project" />
       <option name="ENV_FILES" value="" />
@@ -145,6 +130,21 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_home_page.TestHomePage.test_footer_data_text&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_home_page.TestHomePage.test_footer_data_validation_links" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="gigi_final_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gigi_final_project/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_home_page.TestHomePage.test_footer_data_validation_links&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -165,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_home_page.TestHomePage.test_footer_data_validation_links" />
         <item itemvalue="Python tests.Python tests for test_home_page.TestHomePage.test_footer_links_match" />
         <item itemvalue="Python tests.Python tests for test_home_page.TestHomePage.test_copyright_year" />
         <item itemvalue="Python tests.Python tests for test_home_page.TestHomePage" />
         <item itemvalue="Python tests.Python tests for test_home_page.TestHomePage.test_footer_data_text" />
-        <item itemvalue="Python tests.Python tests for test_home_page.TestHomePage.test_footer_data_links" />
       </list>
     </recent_temporary>
   </component>
