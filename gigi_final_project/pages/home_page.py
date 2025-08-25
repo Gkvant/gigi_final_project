@@ -2,14 +2,14 @@ class jwHomePage:
     def __init__(self, page):
         self.page = page
 
-    # returns copyright year that is on site
+    # Returns copyright year that is on site
     def get_jw_copyright(self):
         jw_copyright = self.page.locator("[class='ml-E dir-ltr ms-ROMAN']")
         jw_copyright_text = jw_copyright.text_content()
         year_index = jw_copyright_text.find('2')
         return jw_copyright_text[year_index:year_index + 4]
 
-    # returns footer locator object
+    # Returns footer locator object
     def get_footer_link_with_(self, name=""):
         jw_footer = self.page.locator("[class='sitemapLinks']")
         if len(name) > 0:
@@ -17,7 +17,7 @@ class jwHomePage:
         else:
             return jw_footer.get_by_role("link")
 
-    # returns all href from footer section as list
+    # Returns all href from footer section as list
     def get_footer_links(self):
         jw_footer_links = self.get_footer_link_with_("")
         count = jw_footer_links.count()
@@ -30,7 +30,7 @@ class jwHomePage:
                 link_list.append(current_link)
         return link_list
 
-    # returns all text from footer section as list
+    # Returns all text from footer section as list
     def get_footer_texts(self):
         jw_footer_links = self.get_footer_link_with_()
         count = jw_footer_links.count()
@@ -40,6 +40,7 @@ class jwHomePage:
             text_list.append(current_text)
         return text_list
 
+    # Returns final URL
     def get_url_after_click(self, link):
         link.click()
         final_url = self.page.url
